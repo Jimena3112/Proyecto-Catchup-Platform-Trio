@@ -7,5 +7,7 @@ namespace Proyecto_Catchup_Platform.Books.Domain.Services
     {
         Task<FavoriteSource?> Handle(GetFavoriteSourceByIdQuery query);
         Task<FavoriteSource?> Handle(GetFavoriteSourceByBooksApiKeyAndSourceIdQuery query);
+        Task<FavoriteSource?> GetById(int id);
+        Task<List<FavoriteSource>> GetAllSources();
     }
 }
