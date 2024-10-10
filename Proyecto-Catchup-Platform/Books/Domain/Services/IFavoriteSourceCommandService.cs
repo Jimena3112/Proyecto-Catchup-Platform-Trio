@@ -4,8 +4,8 @@ namespace Proyecto_Catchup_Platform.Books.Domain.Services
 {
     public interface IFavoriteSourceCommandService
     {
-        Task<FavoriteSource> Add(FavoriteSource favoriteSource);
-        Task<FavoriteSource?> Update(FavoriteSource favoriteSource);
-        Task<bool> Delete(int id);
+        Task<FavoriteSource> AddSource(FavoriteSource favoriteSource);
+        Task<FavoriteSource?> UpdateSource(FavoriteSource favoriteSource);
+        Task<bool> DeleteSource(int id);
     }
 }
