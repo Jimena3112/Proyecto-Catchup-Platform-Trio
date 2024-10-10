@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Proyecto_Catchup_Platform</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Books\Domain\Model\Entities\" />
+    <Folder Include="Books\Domain\Model\Valueobjects\" />
+    <Folder Include="Books\Domain\Repositories\" />
+    <Folder Include="Books\Infrastructure\" />
+    <Folder Include="Books\Interfaces\" />
+  </ItemGroup>
+
+</Project>
